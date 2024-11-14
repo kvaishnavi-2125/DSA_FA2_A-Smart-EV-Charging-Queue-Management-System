@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- activity_registered_users.xml -->
+    <TextView
+        android:id="@+id/adminDashboardHeader"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:background="#388E3C"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Registered User Details"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/registeredUsersListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="16dp"
+        android:layout_marginTop="20dp" />
+</LinearLayout>

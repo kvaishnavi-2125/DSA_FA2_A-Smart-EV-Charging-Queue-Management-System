@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#E8F5E9">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:background="#388E3C"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Send Charging Request"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/vehicleNumberEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Vehicle Number"
+        android:inputType="text"
+        android:layout_marginTop="30dp"/>
+
+    <EditText
+        android:id="@+id/batteryLevelEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Battery Level (%)"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/requestChargingButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Request Charging"
+        android:backgroundTint="#388E3C"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>

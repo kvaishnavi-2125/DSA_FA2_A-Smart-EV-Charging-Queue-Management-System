@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FFFFFF"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="EcoQueue"
+        android:textColor="#4CAF50"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Empowering your journey toward a sustainable future."
+        android:textSize="18sp"
+        android:textColor="#4CAF50"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"/>
+
+    <!-- App Logo -->
+    <ImageView
+        android:id="@+id/appLogo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/ev_charging_system_logo"
+        android:contentDescription="App Logo"
+        android:layout_marginBottom="10dp" />
+
+    <!-- User Login Button -->
+    <Button
+        android:id="@+id/btnUserLogin"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#4CAF50"
+        android:text="User Login"
+        android:textColor="#FFFFFF"
+        android:textAllCaps="false"
+        android:textSize="16sp" />
+
+    <!-- Admin Login Button -->
+    <Button
+        android:id="@+id/btnAdminLogin"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="70dp"
+        android:backgroundTint="#4CAF50"
+        android:text="Admin Login"
+        android:textColor="#FFFFFF"
+        android:textAllCaps="false"
+        android:textSize="16sp" />
+</LinearLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E8F5E9"
+    android:padding="16dp">
+
+    <!-- Header for User Dashboard -->
+    <TextView
+        android:id="@+id/userDashboardHeader"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:background="#388E3C"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="User Dashboard"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <!-- Buttons with Images Above Each -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="50dp">
+
+        <!-- Check Slot Availability Button with Image Above -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="53dp"
+                android:layout_height="51dp"
+                android:contentDescription="Check Slot Availability Icon"
+                android:src="@drawable/check_availabilty"
+                android:tint="#388E3C" />
+
+            <Button
+                android:id="@+id/checkSlotAvailabilityButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Check Slot Availability"
+                android:backgroundTint="#388E3C"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="8dp"/>
+        </LinearLayout>
+
+        <!-- Send Charging Request Button with Image Above -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_marginStart="16dp">
+
+            <ImageView
+                android:layout_width="51dp"
+                android:layout_height="51dp"
+                android:contentDescription="Send Charging Request Icon"
+                android:src="@drawable/request"
+                android:tint="#388E3C" />
+
+            <Button
+                android:id="@+id/sendChargingRequestButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Send Charging Request"
+                android:backgroundTint="#388E3C"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="8dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- View Queue Status Button with Image Above -->
+
+
+    <!-- Logout Button -->
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:backgroundTint="#388E3C"
+        android:text="Logout"
+        android:textColor="#FFFFFF" />
+</LinearLayout>
